@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_normal"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"
+        android:title="@string/normal_map"/>
+    <item
+        android:id="@+id/action_hybrid"
+        android:orderInCategory="101"
+        app:showAsAction="collapseActionView"
+        android:title="@string/hybrid_map"/>
+    <item
+        android:id="@+id/action_satellite"
+        android:orderInCategory="102"
+        app:showAsAction="collapseActionView"
+        android:title="@string/satellite_map"/>
+    <item
+        android:id="@+id/action_terrain"
+        android:orderInCategory="103"
+        app:showAsAction="collapseActionView"
+        android:title="@string/terrain_map"/>
+    <item
+        android:id="@+id/action_fuel"
+        android:orderInCategory="104"
+        app:showAsAction="collapseActionView"
+        android:title="@string/daily_fuel_amount"/>
+    <item
+        android:id="@+id/action_changecar"
+        android:orderInCategory="105"
+        app:showAsAction="collapseActionView"
+        android:title="@string/change_car"/>
+    <item
+        android:id="@+id/action_km"
+        android:orderInCategory="106"
+        app:showAsAction="collapseActionView"
+        android:title="@string/daily_km_amount"/>
+    <item
+        android:id="@+id/action_driver"
+        android:orderInCategory="107"
+        app:showAsAction="collapseActionView"
+        android:title="@string/change_driver"/>
+</menu>
